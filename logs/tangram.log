@@ -1,0 +1,388 @@
+2021-08-11 11:37:43.677  INFO MBP-Smilyk --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.tangram.TangramApplicationTests], using SpringBootContextLoader
+2021-08-11 11:37:43.689  INFO MBP-Smilyk --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.tangram.TangramApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-11 11:37:43.690  INFO MBP-Smilyk --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.tangram.TangramApplicationTests]: TangramApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-11 11:37:43.794  INFO MBP-Smilyk --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.tangram.TangramApplication for test class com.example.tangram.TangramApplicationTests
+2021-08-11 11:37:43.869  INFO MBP-Smilyk --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-11 11:37:43.894  INFO MBP-Smilyk --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e1ef60, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@22356acd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@386f0da3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@39655d3e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@34f22f9d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3d1848cc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7dda48d9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6e4566f1, org.springframework.test.context.event.EventPublishingTestExecutionListener@4b6e2263, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@344f4dea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1b7c473a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5e4bd84a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@648c94da, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2a62b5bc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@53de625d]
+2021-08-11 11:37:44.231  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 11:37:44.321  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplicationTests            : Starting TangramApplicationTests using Java 1.8.0_152 on MBP-Smilyk with PID 18142 (started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 11:37:44.326  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplicationTests            : No active profile set, falling back to default profiles: default
+2021-08-11 11:37:45.191  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 11:37:45.209  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-08-11 11:37:45.856  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 11:37:45.912  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 11:37:46.046  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 11:37:46.172  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 11:37:46.584  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 11:37:46.630  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 11:37:47.347  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 11:37:47.357  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 11:37:47.625  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 11:37:48.434  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplicationTests            : Started TangramApplicationTests in 4.476 seconds (JVM running for 5.87)
+2021-08-11 11:37:48.589  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 11:37:48.591  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 11:37:48.599  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 12:38:14.605  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 12:38:14.704  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18457 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 12:38:14.708  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 12:38:15.703  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 12:38:15.809  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interfaces.
+2021-08-11 12:38:16.310  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 12:38:16.317  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:38:16.318  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 12:38:16.318  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 12:38:16.373  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 12:38:16.374  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1477 ms
+2021-08-11 12:38:16.581  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 12:38:16.633  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 12:38:16.718  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 12:38:16.810  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 12:38:17.243  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 12:38:17.257  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 12:38:17.841  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 12:38:17.850  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:38:18.243  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 12:38:18.530  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:38:18.554  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 12:38:18.562  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.443 seconds (JVM running for 5.392)
+2021-08-11 12:41:38.283  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:41:38.287  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 12:41:38.431  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 12:41:41.654  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 12:41:42.230  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18481 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 12:41:42.240  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 12:41:44.288  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 12:41:44.372  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2021-08-11 12:41:45.123  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 12:41:45.139  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:41:45.140  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 12:41:45.142  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 12:41:45.419  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 12:41:45.420  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3001 ms
+2021-08-11 12:41:45.769  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 12:41:45.895  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 12:41:46.123  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 12:41:46.364  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 12:41:46.702  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 12:41:46.726  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 12:41:47.579  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 12:41:47.615  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:41:48.040  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 12:41:48.678  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:41:48.703  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 12:41:48.712  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 7.698 seconds (JVM running for 9.418)
+2021-08-11 12:41:49.055  INFO MBP-Smilyk --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 12:41:49.055  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 12:41:49.057  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-08-11 12:41:49.187  WARN MBP-Smilyk --- [nio-8080-exec-1] c.e.t.e.HandlerExceptions                : JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "20:12:2020": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '20:12:2020' could not be parsed at index 0; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "20:12:2020": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '20:12:2020' could not be parsed at index 0
+ at [Source: (PushbackInputStream); line: 5, column: 16] (through reference chain: com.example.tangram.dto.RequestEmployeeDto["birthday"])
+2021-08-11 12:42:46.541  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:42:46.543  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 12:42:46.558  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 12:42:52.281  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 12:42:52.492  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18494 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 12:42:52.498  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 12:42:53.236  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 12:42:53.302  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2021-08-11 12:42:53.786  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 12:42:53.795  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:42:53.795  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 12:42:53.795  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 12:42:53.959  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 12:42:53.959  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1402 ms
+2021-08-11 12:42:54.098  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 12:42:54.146  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 12:42:54.267  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 12:42:54.380  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 12:42:54.736  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 12:42:54.762  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 12:42:55.364  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 12:42:55.373  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:42:55.707  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 12:42:56.186  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:42:56.211  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 12:42:56.222  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.437 seconds (JVM running for 5.849)
+2021-08-11 12:43:07.529  INFO MBP-Smilyk --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 12:43:07.530  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 12:43:07.530  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2021-08-11 12:43:07.679  WARN MBP-Smilyk --- [nio-8080-exec-2] c.e.t.e.HandlerExceptions                : HV000030: No validator could be found for constraint 'javax.validation.constraints.Size' validating type 'java.lang.Long'. Check configuration for 'tz'
+2021-08-11 12:43:25.404  WARN MBP-Smilyk --- [nio-8080-exec-3] c.e.t.e.HandlerExceptions                : HV000030: No validator could be found for constraint 'javax.validation.constraints.Size' validating type 'java.lang.Long'. Check configuration for 'tz'
+2021-08-11 12:43:42.961  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:43:42.963  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 12:43:42.969  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 12:43:48.079  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 12:43:48.130  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18512 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 12:43:48.134  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 12:43:48.792  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 12:43:48.840  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2021-08-11 12:43:49.247  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 12:43:49.255  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:43:49.255  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 12:43:49.255  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 12:43:49.342  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 12:43:49.343  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1121 ms
+2021-08-11 12:43:49.540  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 12:43:49.584  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 12:43:49.709  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 12:43:49.819  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 12:43:50.186  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 12:43:50.209  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 12:43:50.808  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 12:43:50.819  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:43:51.414  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 12:43:51.705  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:43:51.729  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 12:43:51.737  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.128 seconds (JVM running for 5.708)
+2021-08-11 12:43:52.695  INFO MBP-Smilyk --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 12:43:52.696  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 12:43:52.697  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 12:47:18.713  WARN MBP-Smilyk --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m28s423ms).
+2021-08-11 12:49:42.170  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:49:42.173  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 12:49:42.177  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 12:50:37.845  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 12:50:37.946  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18582 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 12:50:37.950  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 12:50:38.797  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 12:50:38.859  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2021-08-11 12:50:39.355  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 12:50:39.363  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:50:39.364  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 12:50:39.364  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 12:50:39.513  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 12:50:39.514  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2021-08-11 12:50:39.643  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 12:50:39.684  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 12:50:39.796  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 12:50:39.891  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 12:50:40.222  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 12:50:40.240  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 12:50:40.882  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 12:50:40.897  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 12:50:41.357  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 12:50:41.853  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 12:50:41.878  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 12:50:41.886  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.735 seconds (JVM running for 6.83)
+2021-08-11 12:51:37.078  INFO MBP-Smilyk --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 12:51:37.079  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 12:51:37.080  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 13:03:00.155  WARN MBP-Smilyk --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m18s467ms).
+2021-08-11 13:03:00.260  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 13:03:00.263  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 13:03:00.271  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 13:03:07.929  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 13:03:08.082  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18679 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 13:03:08.132  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 13:03:09.067  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 13:03:09.129  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2021-08-11 13:03:09.582  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 13:03:09.590  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 13:03:09.590  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 13:03:09.590  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 13:03:09.735  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 13:03:09.735  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1500 ms
+2021-08-11 13:03:09.862  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 13:03:09.906  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 13:03:10.011  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 13:03:10.106  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 13:03:10.447  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 13:03:10.468  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 13:03:11.179  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 13:03:11.189  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 13:03:11.631  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 13:03:12.137  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 13:03:12.163  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 13:03:12.173  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.927 seconds (JVM running for 6.192)
+2021-08-11 13:03:19.719  INFO MBP-Smilyk --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 13:03:19.720  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 13:03:19.721  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2021-08-11 13:03:22.739  WARN MBP-Smilyk --- [nio-8080-exec-2] c.e.t.e.HandlerExceptions                : Text '2020:07:28' could not be parsed at index 4
+2021-08-11 13:03:49.888  WARN MBP-Smilyk --- [nio-8080-exec-3] c.e.t.e.HandlerExceptions                : ids for this class must be manually assigned before calling save(): com.example.tangram.model.Employee; nested exception is org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.example.tangram.model.Employee
+2021-08-11 13:04:36.560  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 13:04:36.564  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 13:04:36.569  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 13:04:42.403  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 13:04:42.539  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 18690 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 13:04:42.551  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 13:04:43.632  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 13:04:43.703  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2021-08-11 13:04:44.181  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 13:04:44.189  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 13:04:44.189  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 13:04:44.190  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 13:04:44.332  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 13:04:44.332  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+2021-08-11 13:04:44.465  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 13:04:44.520  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 13:04:44.810  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 13:04:44.965  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 13:04:45.301  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 13:04:45.333  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 13:04:46.339  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 13:04:46.353  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 13:04:46.794  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 13:04:47.321  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 13:04:47.349  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 13:04:47.357  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 5.617 seconds (JVM running for 7.057)
+2021-08-11 13:04:47.528  INFO MBP-Smilyk --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 13:04:47.529  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 13:04:47.530  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 13:04:47.901  INFO MBP-Smilyk --- [nio-8080-exec-2] c.e.t.s.e.EmployeeServiceImpl            :  employee with tz: 338049695 was saved successfully
+2021-08-11 13:04:48.337  WARN MBP-Smilyk --- [nio-8080-exec-3] c.e.t.e.HandlerExceptions                :  employee with tz: 338049695 exists in DB. 
+2021-08-11 13:04:50.437  WARN MBP-Smilyk --- [nio-8080-exec-4] c.e.t.e.HandlerExceptions                :  employee with tz: 338049695 exists in DB. 
+2021-08-11 13:04:51.139  WARN MBP-Smilyk --- [nio-8080-exec-5] c.e.t.e.HandlerExceptions                :  employee with tz: 338049695 exists in DB. 
+2021-08-11 13:05:45.633  INFO MBP-Smilyk --- [nio-8080-exec-6] c.e.t.s.e.EmployeeServiceImpl            :  employee with tz: 3444444444 was saved successfully
+2021-08-11 13:21:02.276  WARN MBP-Smilyk --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m16s831ms).
+2021-08-11 13:26:02.891  WARN MBP-Smilyk --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m30s607ms).
+2021-08-11 15:04:40.613  WARN MBP-Smilyk --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m37s516ms).
+2021-08-11 15:04:42.331  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:04:42.337  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 15:04:42.350  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 15:04:49.284  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 15:04:49.423  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 19082 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 15:04:49.428  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 15:04:50.269  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 15:04:50.334  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2021-08-11 15:04:50.875  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 15:04:50.883  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:04:50.884  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 15:04:50.884  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 15:04:51.048  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 15:04:51.048  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1497 ms
+2021-08-11 15:04:51.179  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 15:04:51.224  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 15:04:51.528  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 15:04:51.655  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 15:04:51.981  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 15:04:52.002  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 15:04:52.726  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 15:04:52.736  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:04:53.101  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 15:04:53.539  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:04:53.566  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 15:04:53.574  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.927 seconds (JVM running for 6.789)
+2021-08-11 15:04:54.720  INFO MBP-Smilyk --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 15:04:54.720  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 15:04:54.721  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 15:05:05.277  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:05:05.281  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 15:05:05.301  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 15:05:14.017  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 15:05:14.130  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 19090 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 15:05:14.139  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 15:05:15.194  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 15:05:15.262  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2021-08-11 15:05:15.846  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 15:05:15.855  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:05:15.855  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 15:05:15.856  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 15:05:16.088  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 15:05:16.089  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2021-08-11 15:05:16.257  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 15:05:16.314  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 15:05:16.426  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 15:05:16.542  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 15:05:16.890  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 15:05:17.094  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 15:05:17.826  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 15:05:17.836  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:05:18.342  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 15:05:19.083  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:05:19.111  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 15:05:19.121  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 5.943 seconds (JVM running for 9.158)
+2021-08-11 15:05:19.794  INFO MBP-Smilyk --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 15:05:19.794  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 15:05:19.795  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 15:05:53.250  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:05:53.253  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 15:05:53.263  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 15:05:58.279  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 15:05:58.425  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 19098 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 15:05:58.439  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 15:05:59.429  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 15:05:59.596  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 1 JPA repository interfaces.
+2021-08-11 15:06:00.158  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 15:06:00.169  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:06:00.170  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 15:06:00.171  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 15:06:00.340  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 15:06:00.340  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1786 ms
+2021-08-11 15:06:00.536  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 15:06:00.597  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 15:06:00.724  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 15:06:00.838  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 15:06:01.205  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 15:06:01.224  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 15:06:01.834  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 15:06:01.843  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:06:02.238  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 15:06:02.816  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:06:02.846  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 15:06:02.856  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 5.144 seconds (JVM running for 6.497)
+2021-08-11 15:06:06.272  INFO MBP-Smilyk --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 15:06:06.273  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 15:06:06.274  INFO MBP-Smilyk --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 15:08:11.497  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:08:11.505  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 15:08:11.515  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 15:08:19.807  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 15:08:19.890  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 19112 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 15:08:19.896  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 15:08:20.890  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 15:08:20.981  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2021-08-11 15:08:21.465  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 15:08:21.473  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:08:21.473  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 15:08:21.473  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 15:08:21.637  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 15:08:21.637  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1573 ms
+2021-08-11 15:08:21.780  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 15:08:21.826  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 15:08:21.951  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 15:08:22.065  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 15:08:22.477  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 15:08:22.503  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 15:08:23.287  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 15:08:23.296  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:08:23.669  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 15:08:24.128  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:08:24.157  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 15:08:24.166  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.994 seconds (JVM running for 6.571)
+2021-08-11 15:08:31.123  INFO MBP-Smilyk --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 15:08:31.129  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 15:08:31.131  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-08-11 15:09:06.116  WARN MBP-Smilyk --- [nio-8080-exec-3] c.e.t.e.HandlerExceptions                :  employee with tz: 338049695 not found in DB. 
+2021-08-11 15:10:03.546  INFO MBP-Smilyk --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:10:03.550  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-08-11 15:10:03.557  INFO MBP-Smilyk --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-08-11 15:35:12.725  INFO MBP-Smilyk --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.2.0.Final
+2021-08-11 15:35:12.898  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Starting TangramApplication using Java 1.8.0_152 on MBP-Smilyk with PID 19209 (/Users/smilyk/Desktop/tangram/target/classes started by smilyk in /Users/smilyk/Desktop/tangram)
+2021-08-11 15:35:12.903  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : No active profile set, falling back to default profiles: default
+2021-08-11 15:35:13.688  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-11 15:35:13.750  INFO MBP-Smilyk --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2021-08-11 15:35:14.253  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-08-11 15:35:14.260  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:35:14.261  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-08-11 15:35:14.261  INFO MBP-Smilyk --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-11 15:35:14.399  INFO MBP-Smilyk --- [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-08-11 15:35:14.399  INFO MBP-Smilyk --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1439 ms
+2021-08-11 15:35:14.527  INFO MBP-Smilyk --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-11 15:35:14.569  INFO MBP-Smilyk --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-11 15:35:14.667  INFO MBP-Smilyk --- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-11 15:35:14.759  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-08-11 15:35:15.066  INFO MBP-Smilyk --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-08-11 15:35:15.084  INFO MBP-Smilyk --- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-11 15:35:15.684  INFO MBP-Smilyk --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-11 15:35:15.694  INFO MBP-Smilyk --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-11 15:35:16.030  WARN MBP-Smilyk --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-11 15:35:16.441  INFO MBP-Smilyk --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-08-11 15:35:16.465  INFO MBP-Smilyk --- [           main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-11 15:35:16.474  INFO MBP-Smilyk --- [           main] c.e.t.TangramApplication                 : Started TangramApplication in 4.171 seconds (JVM running for 5.263)
+2021-08-11 15:35:20.443  INFO MBP-Smilyk --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-11 15:35:20.443  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-08-11 15:35:20.444  INFO MBP-Smilyk --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-08-11 15:35:20.694  WARN MBP-Smilyk --- [nio-8080-exec-1] c.e.t.e.HandlerExceptions                :  employee with tz: 3444444444 exists in DB. 
+2021-08-11 15:35:26.347  WARN MBP-Smilyk --- [nio-8080-exec-3] c.e.t.e.HandlerExceptions                : JSON parse error: Unexpected character ('y' (code 121)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('y' (code 121)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 2, column: 20]
+2021-08-11 15:35:36.492  INFO MBP-Smilyk --- [nio-8080-exec-4] c.e.t.s.e.EmployeeServiceImpl            :  employee with tz: 3444444448 was saved successfully
+2021-08-11 16:12:04.689  WARN MBP-Smilyk --- [l-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m19s334ms).
