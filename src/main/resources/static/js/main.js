@@ -78,8 +78,9 @@ $(document).ready(function () {
       {"mData": "tz"},
       {"mData": "name"},
       {"mData": "lastName"},
-      {"mData": "workExperience"},
       {"mData": "birthday"},
+      {"mData": "workExperience"},
+
       {"mData": "action"}
     ]
   })
