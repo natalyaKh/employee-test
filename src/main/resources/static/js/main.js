@@ -28,7 +28,7 @@ $(function () {
       "name": $('#name').val(),
       "lastName": $('#secondName').val(),
       "birthday": $('#birthday').val(),
-      "startWork": $('#startWor').val()
+      "startWork": $('#startWork').val()
     };
     $.ajax({
       url: '/employee',
