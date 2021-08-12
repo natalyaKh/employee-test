@@ -15,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -66,6 +67,14 @@ public class EmployeeController {
         }
         Status rez = employeeService.deleteEmployeeById(employee);
         return new ResponseEntity(HttpStatus.OK);
+    }
+
+    /**
+     * @return {@link LocalDateTime} time of server
+     */
+    @RequestMapping(value = "/time", method = RequestMethod.GET)
+    public LocalDateTime getServerTime(){
+        return LocalDateTime.now();
     }
 
 }
