@@ -6,6 +6,9 @@ table {border-collapse: collapse; border: thin solid black; margin: 10px}
 td, th {padding: 5px; width: 100px; text-align:center}
 #dialog{background-color: #f8f9fa}
 #dialog title {background-color: darkgray}
+.dialog{
+  width: 100% !important;
+}
 .ui-widget{
   background-color: grey;
 }

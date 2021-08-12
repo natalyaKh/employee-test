@@ -7,7 +7,7 @@ $(function () {
     ],
     modal: true,
     autoOpen: false,
-    maxWidth: 700,
+    maxWidth: 500,
     responsive: true,
     clear: clearDialog()
   })
