@@ -126,5 +126,44 @@ $.ajax({
   }
 })
 
+$(document).ready(function () {
+  var timeDifference;
+  $.ajax({
+    url: '/time',
+    type: 'GET',
+    dataType: 'json',
+    success: function(response) {
+      console.log(response)
+      var currentTime = new Date()
+      timeDifference = new Date().getTime() - new Date(response).getTime();
+      // timeDifference = new Date().getTime() - new Date('2021-09-11T23:50:15.559').getTime();
+      // timeDifference = new Date().getTime() - new Date('2021-08-11T23:50:15.559').getTime();
+      getdate();
+    }
+  });
+
+  function setFirstZero(value) {
+    if (value < 10) {
+      value = "0" + value;
+    }
+    return value;
+  }
+
+  function getdate(){
+    var servertime = new Date();
+    servertime.setMilliseconds(servertime.getMilliseconds() - timeDifference);
+    var day = setFirstZero(servertime.getDate());
+    var month = setFirstZero(servertime.getMonth() + 1);
+    var year = servertime.getFullYear();
+    var hours = setFirstZero(servertime.getHours());
+    var minutes = setFirstZero(servertime.getMinutes());
+    var seconds = setFirstZero(servertime.getSeconds());
+    $(".timer").text(day + "/" + month + "/" + year + " " + hours+" : "+minutes+" : "+seconds);
+    setTimeout(function(){getdate()}, 500);
+  }
+})
+
+
+
 
 
