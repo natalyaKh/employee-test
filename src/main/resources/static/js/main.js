@@ -7,7 +7,8 @@ $(function () {
     ],
     modal: true,
     autoOpen: false,
-    width: 500,
+    maxWidth: 700,
+    responsive: true,
     clear: clearDialog()
   })
 
