@@ -1,5 +1,8 @@
-# employee-test
+# Project TangramTest + Spring
 
+Documentation for front side:
+
+    - Project TangramTest.pdf in root of porject
 
 link for deploy
 

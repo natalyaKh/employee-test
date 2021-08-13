@@ -1,66 +1,48 @@
 
 table {border-collapse: collapse; border: thin solid black; margin: 10px}
 /*dialog css*/
-#placeholder {text-align: center}
-#show {margin: 10px}
+/*#placeholder {text-align: center}*/
 td, th {padding: 5px; width: 100px; text-align:center}
-#dialog{background-color: #f8f9fa}
-#dialog title {background-color: darkgray}
+.modal-header{
+  background-color: grey;
+  border-radius: 10px;
+  margin: 5px;
+}
+.modal-title {
+  background-color: grey;
+  color: #f8f9fa;
+  border-radius: 25px;
+}
+.modal-content{
+  background-color:#e9ecef;
+  border-radius: 10px;
+  width: 300px;
+}
+.model-button{
+  border: black;
+  color: black;
+  background-color: gainsboro;
+}
 .dialog{
   width: 100% !important;
+  border-radius: 25px;
 }
-.ui-widget{
-  background-color: grey;
-}
-.ui-widget-content{
-  /*background-color: #f8f9fa;*/
-  border: 1px solid grey;
-  color: #383838;
-  background: #f8f9fa;
-}
-
-.ui-widget-content {
-  border: 1px solid #8e846b;
-  color: #383838;
-}
-.ui-widget-overlay{
-  opacity: .8;
-}
-
-.ui-widget-header {
-  border: 1px solid grey;
-  background:grey;
-  color: white;
-  font-weight: bold;
+.modal-footer {
+  border-top: 1px solid black;
 }
 
 .delete-button{
   color:red;
   background-color: #f8f9fa;
   border: 1px solid red;
+  padding: 10px;
+  text-decoration:none;
 }
-/*pagination*/
-.page-item.active .page-link {
-  z-index: 1;
-  color: #343a40;
-  background-color: #f8f9fa;
-  border-color: #adb5bd;
+.delete-button:visited {
+  color:red;
+  text-decoration:none;
 }
-.page-link {
-
-  color: #343a40;
-
+.delete-button:hover {
+  color:red;
+  text-decoration:none;
 }
-.paginate_button :hover{
-  color:#343a40
-}
-
-
-
-
-/*.btn-add-employee{*/
-/*  !*background-color: grey;*!*/
-/*  width: 32% ;*/
-/*  margin-left: auto;*/
-/*  display: block*/
-/*}*/

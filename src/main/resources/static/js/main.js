@@ -9,7 +9,7 @@ $(function () {
     autoOpen: false,
     maxWidth: 500,
     responsive: true,
-    clear: clearDialog()
+    clear: clearDialog(),
   })
 
   $('#show').button().click(function () {
@@ -59,6 +59,8 @@ function clearDialog() {
   $('#birthday').val('')
 }
 });
+
+startWork
 
 $(document).ready(function () {
   var table = $('#employeesTable').DataTable({
@@ -162,8 +164,5 @@ $(document).ready(function () {
     setTimeout(function(){getdate()}, 500);
   }
 })
-
-
-
 
 
