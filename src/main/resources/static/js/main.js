@@ -1,3 +1,39 @@
+function formatBirthdayDate() {
+  var d = new Date(),
+    month = '' + (d.getMonth() + 1),
+    day = '' + d.getDate(),
+    year = d.getFullYear() - 15;
+
+  if (month.length < 2)
+    month = '0' + month;
+  if (day.length < 2)
+    day = '0' + day;
+
+  return [year, month, day].join('-');
+}
+
+function formatDate() {
+  var d = new Date(),
+    month = '' + (d.getMonth() + 1),
+    day = '' + d.getDate(),
+    year = d.getFullYear() - 15;
+
+  if (month.length < 2)
+    month = '0' + month;
+  if (day.length < 2)
+    day = '0' + day;
+
+  return [year, month, day].join('-');
+}
+
+
+document.getElementById("birthday")
+  .setAttribute("max",formatBirthdayDate())
+
+document.getElementById("startWork")
+  .setAttribute("max",formatDate())
+
+
 $(function () {
 
   $('#dialog').dialog({
