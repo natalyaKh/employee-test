@@ -1,0 +1,10 @@
+com.example.tangram
+com.example.tangram.constants
+com.example.tangram.controller
+com.example.tangram.dto
+com.example.tangram.enums
+com.example.tangram.exeptions
+com.example.tangram.model
+com.example.tangram.repo
+com.example.tangram.service.employee
+com.example.tangram.service.validator
