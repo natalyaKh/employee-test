@@ -8,7 +8,6 @@ function formatBirthdayDate() {
     month = '0' + month;
   if (day.length < 2)
     day = '0' + day;
-
   return [year, month, day].join('-');
 }
 
@@ -16,7 +15,7 @@ function formatDate() {
   var d = new Date(),
     month = '' + (d.getMonth() + 1),
     day = '' + d.getDate(),
-    year = d.getFullYear() - 15;
+    year = d.getFullYear();
 
   if (month.length < 2)
     month = '0' + month;
@@ -45,7 +44,7 @@ $(function () {
     autoOpen: false,
     maxWidth: 500,
     responsive: true,
-    clear: clearDialog(),
+    clear: clearDialog()
   })
 
   $('#show').button().click(function () {
@@ -60,31 +59,60 @@ $(function () {
   function addDataToTable() {
     $('#placeholder').hide();
 
-    let data = {
-      "tz": $('#tz').val(),
-      "name": $('#name').val(),
-      "lastName": $('#secondName').val(),
-      "birthday": $('#birthday').val(),
-      "startWork": $('#startWork').val()
-    };
-    $.ajax({
-      url: '/employee',
-      type: 'POST',
-      async: false,
-      contentType: 'application/json',
-      data: JSON.stringify(data),
-      success: function (resp) {
-        location.reload();
-      },
-      error:function (resp){
-       var  error = JSON.parse(resp.responseText);
-       console.log(error.error)
-      alert(error.error)
-      }
-    })
-    clearDialog()
-    $('#dialog').dialog("close");
+    if (!$('#tz').val() || $('#tz').val()=='') {
+      document.getElementById("tz")
+        .setAttribute("style","border: 1px solid red;")
+      document.getElementById("tz")
+        .setAttribute("placeholder","tz is required field")
+      // alert('field Tz is required and should contains mi 4 symbols');
+    }else if(!$('#name').val() || $('#name').val()=='') {
+      document.getElementById("name")
+        .setAttribute("style","border: 1px solid red;")
+      document.getElementById("name")
+        .setAttribute("placeholder","name is required field")
+    }else if(!$('#lastName').val() || $('#lastName').val()=='') {
+      document.getElementById("lastName")
+        .setAttribute("style","border: 1px solid red;")
+      document.getElementById("lastName")
+        .setAttribute("placeholder","last name is required field")
+    }else if(!$('#birthday').val() || $('#birthday').val() == '') {
+      document.getElementById("birthday")
+        .setAttribute("style", "border: 1px solid red;")
+      document.getElementById("birthday")
+        .setAttribute("placeholder", "birthday name is required field")
+    }else if(!$('#startWork').val() || $('#startWork').val() == '') {
+      document.getElementById("startWork")
+        .setAttribute("style", "border: 1px solid red;")
+      document.getElementById("startWork")
+        .setAttribute("placeholder", "start work name is required field")
+    } else {
+      let data = {
+        "tz": $('#tz').val(),
+        "name": $('#name').val(),
+        "lastName": $('#lastName').val(),
+        "birthday": $('#birthday').val(),
+        "startWork": $('#startWork').val()
+      };
+      $.ajax({
+        url: '/employee',
+        type: 'POST',
+        async: false,
+        contentType: 'application/json',
+        data: JSON.stringify(data),
+        success: function (resp) {
+          location.reload();
+        },
+        error: function (resp) {
+          var error = JSON.parse(resp.responseText);
+          console.log(error.error)
+          alert(error.error)
+        }
+      })
+      clearDialog()
+      $('#dialog').dialog("close");
+    }
   }
+
 
 
 function clearDialog() {
@@ -95,8 +123,6 @@ function clearDialog() {
   $('#birthday').val('')
 }
 });
-
-startWork
 
 $(document).ready(function () {
   var table = $('#employeesTable').DataTable({

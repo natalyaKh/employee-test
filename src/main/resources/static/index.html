@@ -15,65 +15,43 @@
 <body>
 
 
-<div class="dialog"></div>
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Add employee</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form id="sendForm">
-                    <div class="form-group ">
-                        <label for="tz">TZ (min 4 symbols)</label>
-                        <div id="id">
-                            <input required min="1000" name="tz" type="number" class="form-control" id="tz"
-                                   placeholder="An identification number">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="name" class="col-form-label">Name</label>
-                        <div>
-                            <input required name="name" type="text" class="form-control" id="name" placeholder="Name">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="lastName" class="col-form-label">Surname</label>
-                        <div class="">
-                            <input required name="lastName" type="text" class="form-control" id="lastName" placeholder="Surname">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="startWork" class=" col-form-label">Date start</label>
-                        <div class="">
-                            <input required name="startWork" type="date"  max="" class="form-control" id="startWork"
-                                   placeholder="date of commencement of work">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="birthday" class=" col-form-label">Birthday (age of employee min 15 years old)</label>
-                        <div class="">
-                            <input required type="date" max="" name="birthday"  class="form-control" id="birthday"
-                                   placeholder="Date of Birth">
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn-add-employee" data-dismiss="modal">Cancel</button>
-                <button type="submit" class="btn-add-employee" form="sendForm" class="btn btn-primary">Save employee</button>
+
+<div id="dialog" class="dialog" title="Add Employee">
+    <form id="formEditName" name="formEditName">
+        <div class="form-group col-auto row ">
+            <label for="tz">TZ (min 4 symbols)</label>
+            <div id="id">
+                <input min="1000" name="tz" type="number" class="form-control" id="tz" placeholder="An identification number">
             </div>
         </div>
-    </div>
-</div>
+        <div class="form-group col-auto row">
+            <label for="name" class="col-form-label">Name</label>
+            <div>
+                <input required name="name" type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group col-auto row">
+            <label  for="lastName" class="col-form-label">Surname</label>
+            <div>
+                <input required name="lastName" type="text" class="form-control" id="lastName" placeholder="Surname">
+            </div>
+        </div>
+        <div class="form-group col-auto row">
+            <label for="startWork" class=" col-form-label">Date start</label>
+            <div >
+                <input required name="startWork" type="date" class="form-control" id="startWork" placeholder="Date of commencement of work">
+            </div>
+        </div>
+        <div class="form-group col-auto row">
+            <label for="birthday" class=" col-form-label">Birthday</label>
+            <div>
+                <input required  name="birthday" type="date" class="form-control" id="birthday" placeholder="Date of Birth">
+            </div>
+        </div>
+    </form>
 </div>
 
 <!--<button style="background-color: grey" id="show">Add user</button>-->
-
 
 <div class="card">
     <div style="text-align: center" class="card-body"><H2 > Employee`s table</H2>
@@ -92,10 +70,10 @@
         </table>
 
     </div>
-    <button class="btn-add-employee" data-toggle="modal" data-target="#exampleModalCenter"
-            style="width: 32% ;margin-left: auto; display: block">Add employee
-    </button>
-<!--    <button class="btn-add-employee" style="width: 32% ;margin-left: auto; display: block" id="show">Add user</button>-->
+<!--    <button class="btn-add-employee" data-toggle="modal" data-target="#exampleModalCenter"-->
+<!--            style="width: 32% ;margin-left: auto; display: block">Add employee-->
+<!--    </button>-->
+    <button class="btn-add-employee" style="width: 32% ;margin-left: auto; display: block" id="show">Add employee</button>
 
     <!--    //end of first card body-->
     <div class="card-body">
@@ -112,6 +90,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 <script type="text/javascript" charset="utf8"
