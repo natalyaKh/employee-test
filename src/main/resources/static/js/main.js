@@ -75,16 +75,17 @@ $(function () {
         .setAttribute("style","border: 1px solid red;")
       document.getElementById("lastName")
         .setAttribute("placeholder","last name is required field")
+    }
+    else if(!$('#startWork').val() || $('#startWork').val() == '') {
+      document.getElementById("startWork")
+        .setAttribute("style", "border: 1px solid red;")
+      document.getElementById("startWork")
+        .setAttribute("placeholder", "start work name is required field")
     }else if(!$('#birthday').val() || $('#birthday').val() == '') {
       document.getElementById("birthday")
         .setAttribute("style", "border: 1px solid red;")
       document.getElementById("birthday")
         .setAttribute("placeholder", "birthday name is required field")
-    }else if(!$('#startWork').val() || $('#startWork').val() == '') {
-      document.getElementById("startWork")
-        .setAttribute("style", "border: 1px solid red;")
-      document.getElementById("startWork")
-        .setAttribute("placeholder", "start work name is required field")
     } else {
       let data = {
         "tz": $('#tz').val(),
@@ -152,7 +153,6 @@ $(document).ready(function () {
 
   $('#employeesTable tbody').on('click', 'button', function () {
     var data = table.row($(this).parents('tr')).data()
-    console.log(data.tz + " iii")
     $(this).closest("tr").remove()
     deleteEmployee(data.tz);
   });
@@ -164,7 +164,7 @@ function deleteEmployee(id) {
     type: 'DELETE',
     async: true,
     success: function (resp) {
-      console.log(resp + " deleted")
+
     },
     error:function (resp){
       var  error = JSON.parse(resp.responseText);
@@ -179,7 +179,6 @@ $.ajax({
   type: 'GET',
   success: function (resp) {
     var outputText = 'ip: ' + resp.ip;
-    console.log(resp.ip + " ip")
     $('#ip').append(outputText);
   }
 })
@@ -197,11 +196,7 @@ $(document).ready(function () {
     type: 'GET',
     dataType: 'json',
     success: function(response) {
-      console.log(response)
-      var currentTime = new Date()
       timeDifference = new Date().getTime() - new Date(response).getTime();
-      // timeDifference = new Date().getTime() - new Date('2021-09-11T23:50:15.559').getTime();
-      // timeDifference = new Date().getTime() - new Date('2021-08-11T23:50:15.559').getTime();
       getdate();
     }
   });
